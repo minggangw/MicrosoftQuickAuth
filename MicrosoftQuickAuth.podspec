@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MicrosoftQuickAuth"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Authentication Library for iOS"
   s.homepage     = "https://github.com/minggangw/MicrosoftQuickAuth"
   s.license      = {
