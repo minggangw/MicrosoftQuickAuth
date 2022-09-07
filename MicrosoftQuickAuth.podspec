@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s,
   }
   s.source_files = "MicrosoftQuickAuth/*.{h,m}"
-  app.requires_arc = true
+  s.requires_arc = true
 end
