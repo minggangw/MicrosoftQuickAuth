@@ -14,4 +14,10 @@ Pod::Spec.new do |s|
     :git => "https://github.com/minggangw/MicrosoftQuickAuth.git",
     :tag => s.version.to_s,
   }
+  s.default_subspecs ='app-lib'
+  s.subspec 'app-lib' do |app|
+  	app.source_files = "MicrosoftQuickAuth/**/*.{h,m}"
+  	app.ios.public_header_files = "MicrosoftQuickAuth/**/*.h"
+  	app.requires_arc = true
+  end
 end

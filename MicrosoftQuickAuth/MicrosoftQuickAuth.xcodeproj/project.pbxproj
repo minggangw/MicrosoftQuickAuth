@@ -8,27 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		29EA75C328C86A8300501E0E /* MicrosoftQuickAuth.docc in Sources */ = {isa = PBXBuildFile; fileRef = 29EA75C228C86A8300501E0E /* MicrosoftQuickAuth.docc */; };
-		29EA75C928C86A8300501E0E /* MicrosoftQuickAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EA75BE28C86A8300501E0E /* MicrosoftQuickAuth.framework */; };
-		29EA75CE28C86A8300501E0E /* MicrosoftQuickAuthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EA75CD28C86A8300501E0E /* MicrosoftQuickAuthTests.m */; };
 		29EA75CF28C86A8300501E0E /* MicrosoftQuickAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EA75C128C86A8300501E0E /* MicrosoftQuickAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		29EA75CA28C86A8300501E0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29EA75B528C86A8300501E0E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 29EA75BD28C86A8300501E0E;
-			remoteInfo = MicrosoftQuickAuth;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		29EA75BE28C86A8300501E0E /* MicrosoftQuickAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MicrosoftQuickAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EA75C128C86A8300501E0E /* MicrosoftQuickAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicrosoftQuickAuth.h; sourceTree = "<group>"; };
 		29EA75C228C86A8300501E0E /* MicrosoftQuickAuth.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MicrosoftQuickAuth.docc; sourceTree = "<group>"; };
-		29EA75C828C86A8300501E0E /* MicrosoftQuickAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrosoftQuickAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29EA75CD28C86A8300501E0E /* MicrosoftQuickAuthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicrosoftQuickAuthTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,14 +25,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29EA75C528C86A8300501E0E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29EA75C928C86A8300501E0E /* MicrosoftQuickAuth.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,7 +32,6 @@
 			isa = PBXGroup;
 			children = (
 				29EA75C028C86A8300501E0E /* MicrosoftQuickAuth */,
-				29EA75CC28C86A8300501E0E /* MicrosoftQuickAuthTests */,
 				29EA75BF28C86A8300501E0E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				29EA75BE28C86A8300501E0E /* MicrosoftQuickAuth.framework */,
-				29EA75C828C86A8300501E0E /* MicrosoftQuickAuthTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,14 +51,6 @@
 				29EA75C228C86A8300501E0E /* MicrosoftQuickAuth.docc */,
 			);
 			path = MicrosoftQuickAuth;
-			sourceTree = "<group>";
-		};
-		29EA75CC28C86A8300501E0E /* MicrosoftQuickAuthTests */ = {
-			isa = PBXGroup;
-			children = (
-				29EA75CD28C86A8300501E0E /* MicrosoftQuickAuthTests.m */,
-			);
-			path = MicrosoftQuickAuthTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,24 +85,6 @@
 			productReference = 29EA75BE28C86A8300501E0E /* MicrosoftQuickAuth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		29EA75C728C86A8300501E0E /* MicrosoftQuickAuthTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 29EA75D528C86A8300501E0E /* Build configuration list for PBXNativeTarget "MicrosoftQuickAuthTests" */;
-			buildPhases = (
-				29EA75C428C86A8300501E0E /* Sources */,
-				29EA75C528C86A8300501E0E /* Frameworks */,
-				29EA75C628C86A8300501E0E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				29EA75CB28C86A8300501E0E /* PBXTargetDependency */,
-			);
-			name = MicrosoftQuickAuthTests;
-			productName = MicrosoftQuickAuthTests;
-			productReference = 29EA75C828C86A8300501E0E /* MicrosoftQuickAuthTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -145,9 +95,6 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					29EA75BD28C86A8300501E0E = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					29EA75C728C86A8300501E0E = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -166,20 +113,12 @@
 			projectRoot = "";
 			targets = (
 				29EA75BD28C86A8300501E0E /* MicrosoftQuickAuth */,
-				29EA75C728C86A8300501E0E /* MicrosoftQuickAuthTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		29EA75BC28C86A8300501E0E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29EA75C628C86A8300501E0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,23 +136,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29EA75C428C86A8300501E0E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29EA75CE28C86A8300501E0E /* MicrosoftQuickAuthTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		29EA75CB28C86A8300501E0E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 29EA75BD28C86A8300501E0E /* MicrosoftQuickAuth */;
-			targetProxy = 29EA75CA28C86A8300501E0E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		29EA75D028C86A8300501E0E /* Debug */ = {
@@ -386,36 +309,6 @@
 			};
 			name = Release;
 		};
-		29EA75D628C86A8300501E0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29J9NKAPA8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MicrosoftQuickAuthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		29EA75D728C86A8300501E0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29J9NKAPA8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.MicrosoftQuickAuthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -433,15 +326,6 @@
 			buildConfigurations = (
 				29EA75D328C86A8300501E0E /* Debug */,
 				29EA75D428C86A8300501E0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		29EA75D528C86A8300501E0E /* Build configuration list for PBXNativeTarget "MicrosoftQuickAuthTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29EA75D628C86A8300501E0E /* Debug */,
-				29EA75D728C86A8300501E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
